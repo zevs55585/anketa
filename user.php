@@ -15,10 +15,10 @@ $r = $_SESSION["user"]
 		</div>
 <a href="index.php">главная сраница</a>
 <?if (isset($_SESSION["user"]) && $_SESSION["user"]["admin"]){//админ то покажи кнопку создать книгу
-    echo'<a href="newopros.php">создать опрос</a><br>'; //<!--  <a> определяет гиперссылку-->
+    echo'<a href="create_newopros.php">просмотреть диаграмму</a><br>'; //<!--  <a> определяет гиперссылку-->
   }
   ?>
-<a href="newopros.php">мои опросы</a>
+
 
 <br/>
 <table border=1>
